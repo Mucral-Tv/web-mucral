@@ -1,0 +1,9 @@
+:root {
+    --color-background: #17141F;
+    --color-primary: #E3A600;
+    --color-text: #FFFFFF;
+
+    --navigation-height: 56px;
+    --header-height: 56px;
+    --footer-height: 40px;
+}
