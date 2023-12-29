@@ -26,6 +26,10 @@
   width: 100%;
 }
 
+.navigation_logo {
+  position: relative;
+}
+
 .navigation_items {
   flex-direction: column;
   gap: 24px;
@@ -72,6 +76,7 @@
 
 .navigation_social {
   grid-area: social;
+  position: relative;
   justify-content: center;
   gap: 24px;
   transition: 0.3s ease-in-out;
@@ -176,7 +181,7 @@
   position: fixed;
   inset: 0;
   background-color: var(--color-overlay);
-  z-index: -1;
+  z-index: 0;
   transition: var(--transition);
 }
 

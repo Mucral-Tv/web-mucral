@@ -3,9 +3,14 @@
 @import " utils/variables.css";
 
 @import "components/navigation.css";
+@import "components/items.css";
 @import "components/footer.css";
 
 @import "layout.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Ubuntu", sans-serif;

@@ -1,9 +1,11 @@
 :root {
     /* COLORS */
     --color-background: #17141F;
-    --color-overlay: rgba(0, 0, 0, 0.5);
+    --color-overlay: rgba(0, 0, 0, 0.8);
     --color-primary: #E3A600;
-    --color-text: #FFFFFF;
+    --color-secondary: #FFFFFF;
+    --color-text: var(--color-secondary);
+    --color-title: var(--color-primary);
 
     /* COMPONENTS */
     --navigation-height: 56px;
