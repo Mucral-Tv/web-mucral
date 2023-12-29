@@ -7,62 +7,59 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navigation">
-        <div class="navigation_logo">
-          <a href="">
-            <img src="./images/logo.png" alt="Mucral Logo" />
-          </a>
-        </div>
-        <div class="navigation_hamburger" onclick="openNav()"></div>
-        <div class="navigation_menu" id="navigation_menu">
-          <ul class="navigation_items">
-            <li><a href="" class="active">Live</a></li>
-            <li><a href="biographie.html">Biographie</a></li>
-            <li><a href="">Configuration</a></li>
-            <li><a href="">Émissions</a></li>
-            <li><a href="">Giveaways</a></li>
-            <li><a href="">Animés</a></li>
-          </ul>
-          <ul class="navigation_social">
-            <li>
-              <a href="" title="Twitch"
-                ><img src="./images/icons/twitch.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" title="Youtube"
-                ><img src="./images/icons/youtube.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" title="Twitter"
-                ><img src="./images/icons/twitter.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" title="Discord"
-                ><img src="./images/icons/discord.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" title="Humble"
-                ><img src="./images/icons/humble-bundle.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" title="Github"
-                ><img src="./images/icons/github.png" alt=""
-              /></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <script>
-      function openNav() {
-        document.getElementById("navigation_menu").classList.toggle("open");
-      }
-    </script>
+    <nav class="navigation" id="navigation">
+      <div class="navigation_logo">
+        <a href="">
+          <img src="./images/logo.png" alt="Mucral Logo" />
+        </a>
+      </div>
+      <div class="navigation_hamburger" onclick="openNav()">
+        <div class="hamburger_icon-left"></div>
+        <div class="hamburger_icon-right"></div>
+      </div>
+      <div class="navigation_menu">
+        <ul class="navigation_items">
+          <li><a href="" class="active">Live</a></li>
+          <li><a href="biographie.html">Biographie</a></li>
+          <li><a href="">Configuration</a></li>
+          <li><a href="">Émissions</a></li>
+          <li><a href="">Giveaways</a></li>
+          <li><a href="">Animés</a></li>
+        </ul>
+        <ul class="navigation_social">
+          <li>
+            <a href="" title="Twitch"
+              ><img src="./images/icons/twitch.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="" title="Youtube"
+              ><img src="./images/icons/youtube.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="" title="Twitter"
+              ><img src="./images/icons/twitter.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="" title="Discord"
+              ><img src="./images/icons/discord.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="" title="Humble"
+              ><img src="./images/icons/humble-bundle.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="" title="Github"
+              ><img src="./images/icons/github.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <script src="script/script.js"></script>
   </body>
 </html>

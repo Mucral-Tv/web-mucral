@@ -1,9 +1,15 @@
 :root {
+    /* COLORS */
     --color-background: #17141F;
+    --color-overlay: rgba(0, 0, 0, 0.5);
     --color-primary: #E3A600;
     --color-text: #FFFFFF;
 
+    /* COMPONENTS */
     --navigation-height: 56px;
     --header-height: 56px;
     --footer-height: 40px;
+
+    /* TRANSITION */
+    --transition: 0.5s ease-in-out;
 }
