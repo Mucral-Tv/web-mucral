@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap");
-@import "utils/reset.css";
-@import " utils/variables.css";
+@import "utils/reset";
+@import "utils/variables";
 
-@import "components/navigation.css";
-@import "components/items.css";
-@import "components/footer.css";
+@import "components/navigation";
+@import "components/items";
+@import "components/card";
+@import "components/footer";
 
-@import "layout.css";
+@import "layout";
 
 * {
   box-sizing: border-box;
