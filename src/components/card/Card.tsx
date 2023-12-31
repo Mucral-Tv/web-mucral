@@ -1,30 +1,48 @@
-
 import youtubeIcon from "@/assets/img/icons/youtube.png";
 import steamIcon from "@/assets/img/icons/steam.png";
 
+type CardStatus = "inProgress" | "completed";
+
 interface CardProps {
+  status?: CardStatus;
   title: string;
   image: string;
-  links: string[];
+  links?: string[];
 }
 
-const Card = ({ title, image, links }: CardProps) => {
+const linkRender = (link: string) => {
+  if (link.includes("youtube")) {
+    return (
+      <a href={link} target="_blank" rel="noreferrer">
+        <img src={youtubeIcon} alt="youtube" />
+      </a>
+    );
+  } else if (link.includes("steam")) {
+    return (
+      <a href={link} target="_blank" rel="noreferrer">
+        <img src={steamIcon} alt="steam" />
+      </a>
+    );
+  }
+};
+
+const Card = ({ title, image, links, status }: CardProps) => {
   return (
-    <div className="card">
+    <article className={`card ${status === 'completed' ? "card--completed" : null}`}>
       <div className="card__image">
         <img src={image} alt={title} />
       </div>
-      {links ? (
-        <div className="card__links">
-          {links.map((link, index) => (
-            <a href={link} key={index} target="_blank">
-                <img src={youtubeIcon} />
-                <img src={steamIcon}/>
-            </a>
-          ))}
+      {title || links ? (
+        <div className="card__content">
+          <h3>{title}</h3>
+          <div className="card__links">
+            {links ? links.map((link) => (
+              linkRender(link)
+            )) : null}
+          </div>
         </div>
       ) : null}
-    </div>
+    </article>
   );
 };
 export default Card;
