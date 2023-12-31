@@ -1,0 +1,129 @@
+{
+  "events": [
+    {
+      "title": "Événement 1",
+      "image": "images/image.png",
+      "inProgress": true
+    },
+    {
+      "title": "Événement 2",
+      "image": "images/image.png",
+      "inProgress": true
+    },
+    {
+      "title": "Événement 3",
+      "image": "images/image.png",
+      "inProgress": false
+    }
+  ],
+  "games": [
+    {
+      "title": "Jeu 1",
+      "inProgress": true,
+      "image": "images/image.png",
+      "links": {
+          "youtube": "",
+          "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 2",
+      "inProgress": true,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 3",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 4",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 5",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 6",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 7",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 8",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 9",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 10",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 11",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    },
+    {
+      "title": "Jeu 12",
+      "inProgress": false,
+      "image": "images/image.png",
+      "links": {
+        "youtube": "",
+        "steam": ""
+      }
+    }
+  ]
+}
