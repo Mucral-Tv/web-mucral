@@ -1,0 +1,272 @@
+{
+  "games": {
+    "inProgress": [
+      {
+        "title": "A Plague Tale: Requiem",
+        "image": "images/a_plague_tale_requiem.webp",
+        "links": {
+          "youtube": "",
+          "steam": "https://store.steampowered.com/app/1182900/A_Plague_Tale_Requiem/"
+        }
+      }
+    ],
+    "completed": [
+      {
+        "title": "Crash Bandicoot™ 4: It’s About Time",
+        "image": "images/crash_bandicoot_4.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=GhtSi3plH98&list=PL1wyuEEMvgueyIHtW5YA9RYkmqEqLoiA6",
+          "steam": "https://store.steampowered.com/app/1378990/Crash_Bandicoot_4_Its_About_Time/"
+        }
+      },
+      {
+        "title": "Dishonored 2",
+        "image": "images/dishonored_2.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=CskL0615PjY&list=PL1wyuEEMvguc1DG785Wkzw2hAp4egXlJi&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/403640/Dishonored_2/?l=french"
+        }
+      },
+      {
+        "title": "Inside",
+        "image": "images/inside.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=1pE9ngLhB6M&list=PL1wyuEEMvgucrGl0PENrrUgBsLecnPduX",
+          "steam": "https://store.steampowered.com/app/304430/INSIDE/"
+        }
+      },
+      {
+        "title": "Moonlighter",
+        "image": "images/moonlighter.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=AvXOIAjeit0&list=PL1wyuEEMvgueDuRWGXsgNpHsX2_EghL9r&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/606150/Moonlighter/"
+        }
+      },
+      {
+        "title": "Little Nightmares",
+        "image": "images/little_nightmares.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=vFLRrCKa9-Y&list=PL1wyuEEMvgufQBfWdL8C4DQLdk-IaUUdX&pp=gAQBiAQB",
+          "steam": "https://store.steam"
+        }
+      },
+      {
+        "title": "The Witness",
+        "image": "images/the_witness.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=DHXWo6SjNoM&list=PL1wyuEEMvguexjIKSvH_Tym21AU8x2Ay2&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/210970/The_Witness/"
+        }
+      },
+      {
+        "title": "The Medium",
+        "image": "images/the_medium.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=3sNxAhzKYm4&list=PL1wyuEEMvgufy_UzkSQrGYIyJFmUg1gUV",
+          "steam": "https://store.steampowered.com/app/1293160/The_Medium/"
+        }
+      },
+      {
+        "title": "My Time at Portia",
+        "image": "images/my_time_at_portia.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=w5dInLEy38U&list=PL1wyuEEMvgufSY9H9D8L_qITds3eQz3l1",
+          "steam": "https://store.steampowered.com/app/666140/My_Time_at_Portia/"
+        }
+      },
+      {
+        "title": "Mars Horizon",
+        "image": "images/mars_horizon.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=gzAfvCIE76M&list=PL1wyuEEMvgudlsZBR1Gngl3SO_P6OmFBP&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/765810/Mars_Horizon/"
+        }
+      },
+      {
+        "title": "Tell Me Why",
+        "image": "images/tell_me_why.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=QhI9ewz_1aM&list=PL1wyuEEMvgufIvEt9ZKrl3wLO-_GltGCo",
+          "steam": "https://store.steampowered.com/app/1180660/Tell_Me_Why/"
+        }
+      },
+      {
+        "title": "Hue",
+        "image": "images/hue.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=WnY_DtuYksU&list=PL1wyuEEMvgufVrQ5Rjk27G12GAeiBEuLn",
+          "steam": "https://store.steampowered.com/app/383270/Hue/"
+        }
+      },
+      {
+        "title": "Hellblade: Senua's Sacrifice",
+        "image": "images/hellblade_senua_sacrifice.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=CCs_VRE9El8&list=PL1wyuEEMvgudROGrjegkbOve6hTxj1JJg",
+          "steam": "https://store.steampowered.com/app/414340/Hellblade_Senuas_Sacrifice/"
+        }
+      },
+      {
+        "title": "Ori and the Will of the Wisps",
+        "image": "images/ori_and_the_will_of_the_wisps.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=zmpzZmpVq-E&list=PL1wyuEEMvgudz88bhHQsnDwgZkLmS-bw6",
+          "steam": "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/"
+        }
+      },
+      {
+        "title": "Mars Horizon",
+        "image": "images/mars_horizon.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=B4PNo4TDB9A&list=PL1wyuEEMvgueGGzLKArPzKUvMlkjCZixo&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/765810/Mars_Horizon/"
+        }
+      },
+      {
+        "title": "GTFO",
+        "image": "images/gtfo.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=Eb5J7TSjGus&list=PL1wyuEEMvgueT9vHDQVmuzO6ezPWaKIJs",
+          "steam": "https://store.steampowered.com/app/493520/GTFO/"
+        }
+      },
+      {
+        "title": "Ori and the Blind Forest",
+        "image": "images/ori_and_the_blind_forest.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=9tiEOXqVHtc&list=PL1wyuEEMvgudBQ06wWZVO-dNLAT0zwLtw",
+          "steam": "https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/"
+        }
+      },
+      {
+        "title": "GRIS",
+        "image": "images/gris.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=T0poe68jx-Y&list=PL1wyuEEMvgudqS8yzqSyMFKR4YItq9s-A",
+          "steam": "https://store.steampowered.com/app/683320/GRIS/"
+        }
+      },
+      {
+        "title": "Two Point Hospital",
+        "image": "images/two_point_hospital.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=1NmCEoT6s1g&list=PL1wyuEEMvgudnRV154pWII0aXZfFYLxEj",
+          "steam": "https://store.steampowered.com/app/535930/Two_Point_Hospital/"
+        }
+      },
+      {
+        "title": "Bad North: Jotunn Edition",
+        "image": "images/bad_north_jotunn_edition.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=TQ7zOev7fYk&list=PL1wyuEEMvgufI4vqz825H8CAga8ehoEb_&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/688420/Bad_North_Jotunn_Edition/"
+        }
+      },
+      {
+        "title": "Spyro™ Reignited Trilogy",
+        "image": "images/spyro_reignited_trilogy.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=YN1Y-ZiNceg&list=PL1wyuEEMvgueHHW5eboGY00SHpBPYibwB&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy/"
+        }
+      },
+      {
+        "title": "Portal 2",
+        "image": "images/portal_2.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=o_LyySdBIOo&list=PL1wyuEEMvgue9jCqPxHfNGPgxMnOb-Y7o&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/620/Portal_2/"
+        }
+      },
+      {
+        "title": "Dead Cells",
+        "image": "images/dead_cells.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=GczTmwq49vs&list=PL1wyuEEMvgucsUvJ2tAKT4OtP6xeTnKAY&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/588650/Dead_Cells/"
+        }
+      },
+      {
+        "title": "For The King",
+        "image": "images/for_the_king.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=w1YNLpTSro0&list=PL1wyuEEMvgudRmssosxsZvoZHNZ3m41bO&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/527230/For_The_King/"
+        }
+      },
+      {
+        "title": "Lonely Mountains: Downhill",
+        "image": "images/lonely_mountains_downhill.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=n21fjVDhneI&list=PL1wyuEEMvguc9-d-9WJXPh5019T91FGNX&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/711540/Lonely_Mountains_Downhill/"
+        }
+      },
+      {
+        "title": "Red Dead Redemption 2",
+        "image": "images/red_dead_redemption_2.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=xOyC8LcIojA&list=PL1wyuEEMvgueiOPVIfKvN41PCJH66eAwQ&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+        }
+      },
+      {
+        "title": "Slime Rancher",
+        "image": "images/slime_rancher.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=PLN7v5KtfU8&list=PL1wyuEEMvguftV26HpQMxAuLvfKxdM4_u&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/433340/Slime_Rancher/"
+        }
+      },
+      {
+        "title": "Portal",
+        "image": "images/portal.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=OJLEsl7YLbs&list=PL1wyuEEMvgudp4e0VR2WciQuZZMxGLrvo&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/400/Portal/"
+        }
+      },
+      {
+        "title": "Beyond: Two Souls",
+        "image": "images/beyond_two_souls.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=fH8ojr-7N1o&list=PL1wyuEEMvgudx7AefjWRZxn5qns8TZNaY&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/960990/Beyond_Two_Souls/"
+        }
+      },
+      {
+        "title": "FOR HONOR™",
+        "image": "images/for_honor.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=0aBLPX1yLqw&list=PL1wyuEEMvgueIj18C1IsITkl3N1hVhIIZ",
+          "steam": "https://store.steampowered.com/app/304390/FOR_HONOR/"
+        }
+      },
+      {
+        "title": "Mutant Year Zero: Road to Eden",
+        "image": "images/mutant_year_zero_road_to_eden.webp",
+        "links": {
+          "youtube": "https://www.youtube.com/watch?v=kDgakvGjNdA&list=PL1wyuEEMvgucLnOuk1Sz2X0COf9aHUNhw&pp=gAQBiAQB",
+          "steam": "https://store.steampowered.com/app/760060/Mutant_Year_Zero_Road_to_Eden/"
+        }
+      },
+      {
+        "title": "",
+        "image": "images/.webp",
+        "links": {
+          "youtube": "",
+          "steam": ""
+        }
+      },
+      {
+        "title": "",
+        "image": "images/.webp",
+        "links": {
+          "youtube": "",
+          "steam": ""
+        }
+      }
+    ]
+  }
+}
