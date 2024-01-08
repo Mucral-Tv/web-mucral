@@ -1,8 +1,6 @@
 .items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 80px;
-  padding: 2rem;
 }
 
 .item {
@@ -23,7 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+    width: 100%;
     font-size: 14px;
   }
 
@@ -38,7 +36,7 @@
 
   aside {
     border: solid 1px var(--color-primary);
-    width: 500px;
+    width: 100%;
     aspect-ratio: 16/9;
   }
 
@@ -48,11 +46,20 @@
     flex-direction: row;
     gap: 2rem;
 
+    article {
+      width: 450px;
+    }
+
+    aside {
+      border: solid 1px var(--color-primary);
+      width: 512px;
+      aspect-ratio: 16/9;
+    }
+
     &:nth-child(even) {
       flex-direction: row-reverse;
     }
   }
-
 }
 
 
