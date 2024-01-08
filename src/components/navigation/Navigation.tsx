@@ -41,12 +41,17 @@ const Navigation = () => {
           </ul>
           <ul className="navigation__social">
             <li>
-              <a href="https://www.twitch.tv/mucral_tv" title="Twitch">
+              <a
+                target="_blank"
+                href="https://www.twitch.tv/mucral_tv"
+                title="Twitch"
+              >
                 <img src={TwitchIcon} alt="" />
               </a>
             </li>
             <li>
               <a
+                target="_blank"
                 href="https://www.youtube.com/channel/UCRsw7eV9gFRV4b9t1Lg2GPw"
                 title="Youtube"
               >
@@ -54,12 +59,20 @@ const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/Mucral" title="Twitter">
+              <a
+                target="_blank"
+                href="https://twitter.com/Mucral"
+                title="Twitter"
+              >
                 <img src={twiterIcon} alt="" />
               </a>
             </li>
             <li>
-              <a href="https://discord.com/invite/g9prZQd" title="Discord">
+              <a
+                target="_blank"
+                href="https://discord.com/invite/g9prZQd"
+                title="Discord"
+              >
                 <img src={DiscordIcode} alt="" />
               </a>
             </li>
@@ -72,7 +85,11 @@ const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/Mucral-Tv" title="Github">
+              <a
+                target="_blank"
+                href="https://github.com/Mucral-Tv"
+                title="Github"
+              >
                 <img src={githubIcon} alt="" />
               </a>
             </li>

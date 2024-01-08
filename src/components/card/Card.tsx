@@ -8,6 +8,7 @@ interface CardProps {
   title: string;
   image: string;
   links?: string[];
+  index: number;
 }
 
 const linkRender = (link: string) => {
@@ -27,22 +28,22 @@ const linkRender = (link: string) => {
 };
 
 const Card = ({ title, image, links, status }: CardProps) => {
+
   return (
-    <article className={`card ${status === 'completed' ? "card--completed" : null}`}>
+    <article
+      className={`card ${status === "completed" ? "card--completed" : ""}`}
+    >
       <div className="card__image">
-        <img src={image} alt={title} />
+        <img loading="lazy" src={image} alt={title} />
       </div>
-      {title || links ? (
+      {(title || links) && (
         <div className="card__content">
           <h3>{title}</h3>
-          <div className="card__links">
-            {links ? links.map((link) => (
-              linkRender(link)
-            )) : null}
-          </div>
+          <div className="card__links">{links && links.map(linkRender)}</div>
         </div>
-      ) : null}
+      )}
     </article>
   );
 };
+
 export default Card;
