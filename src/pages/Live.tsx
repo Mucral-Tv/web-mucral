@@ -1,5 +1,9 @@
+import TwitchPlayer from "../components/TwitchPlayer";
+
 const Live = () => {
-  return <h1>Live</h1>;
-};
+    return <div className="live">
+       <TwitchPlayer />
+    </div>;
+}
 
 export default Live;
