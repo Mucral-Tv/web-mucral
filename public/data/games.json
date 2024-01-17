@@ -1,19 +1,27 @@
 {
   "games": {
     "inProgress": [
-      {
-        "title": "A Plague Tale: Requiem",
-        "image": "images/a_plague_tale_requiem.webp",
-        "links": {
-          "youtube": "None",
-          "steam": "https://store.steampowered.com/app/1182900/A_Plague_Tale_Requiem/"
-        }
-      }
+		{
+		  "title": "Heavy Rain",
+		  "image": "images/games/heavy_rain.webp",
+		  "links": {
+			"youtube": "None",
+		  	"steam": "https://store.steampowered.com/app/960910/Heavy_Rain/"
+		  }
+		}
     ],
     "completed": [
+		{
+		"title": "A Plague Tale: Requiem",
+		"image": "images/games/a_plague_tale_requiem.webp",
+		"links": {
+			"youtube": "None",
+			"steam": "https://store.steampowered.com/app/1182900/A_Plague_Tale_Requiem/"
+		}
+		},
 		  {
 		    "title": "Crash Bandicoot™ 4: It’s About Time",
-		    "image": "images/crash_bandicoot_4.webp",
+		    "image": "images/games/crash_bandicoot_4.webp",
 		    "links": {
 		        "youtube": "https://www.youtube.com/watch?v=GhtSi3plH98&list=PL1wyuEEMvgueyIHtW5YA9RYkmqEqLoiA6",
 		        "steam": "https://store.steampowered.com/app/1378990/Crash_Bandicoot_4_Its_About_Time/"
@@ -21,7 +29,7 @@
 		  },
 		  {
 		    "title": "Dishonored 2",
-		    "image": "images/dishonored_2.webp",
+		    "image": "images/games/dishonored_2.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=CskL0615PjY&list=PL1wyuEEMvguc1DG785Wkzw2hAp4egXlJi&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/403640/Dishonored_2/?l=french"
@@ -29,7 +37,7 @@
 		  },
 		  {
 		    "title": "Inside",
-		    "image": "images/inside.webp",
+		    "image": "images/games/inside.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=1pE9ngLhB6M&list=PL1wyuEEMvgucrGl0PENrrUgBsLecnPduX",
 		      "steam": "https://store.steampowered.com/app/304430/INSIDE/"
@@ -37,7 +45,7 @@
 		  },
 		  {
 		    "title": "Moonlighter",
-		    "image": "images/moonlighter.webp",
+		    "image": "images/games/moonlighter.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=AvXOIAjeit0&list=PL1wyuEEMvgueDuRWGXsgNpHsX2_EghL9r&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/606150/Moonlighter/"
@@ -45,7 +53,7 @@
 		  },
 		  {
 		    "title": "Little Nightmares",
-		    "image": "images/little_nightmares.webp",
+		    "image": "images/games/little_nightmares.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=vFLRrCKa9-Y&list=PL1wyuEEMvgufQBfWdL8C4DQLdk-IaUUdX&pp=gAQBiAQB",
 		      "steam": "https://store.steam"
@@ -53,7 +61,7 @@
 		  },
 		  {
 		    "title": "The Witness",
-		    "image": "images/the_witness.webp",
+		    "image": "images/games/the_witness.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=DHXWo6SjNoM&list=PL1wyuEEMvguexjIKSvH_Tym21AU8x2Ay2&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/210970/The_Witness/"
@@ -61,7 +69,7 @@
 		  },
 		  {
 		    "title": "The Medium",
-		    "image": "images/the_medium.webp",
+		    "image": "images/games/the_medium.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=3sNxAhzKYm4&list=PL1wyuEEMvgufy_UzkSQrGYIyJFmUg1gUV",
 		      "steam": "https://store.steampowered.com/app/1293160/The_Medium/"
@@ -69,7 +77,7 @@
 		  },
 		  {
 		    "title": "My Time at Portia",
-		    "image": "images/my_time_at_portia.webp",
+		    "image": "images/games/my_time_at_portia.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=w5dInLEy38U&list=PL1wyuEEMvgufSY9H9D8L_qITds3eQz3l1",
 		      "steam": "https://store.steampowered.com/app/666140/My_Time_at_Portia/"
@@ -77,7 +85,7 @@
 		  },
 		  {
 		    "title": "Mars Horizon",
-		    "image": "images/mars_horizon.webp",
+		    "image": "images/games/mars_horizon.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=gzAfvCIE76M&list=PL1wyuEEMvgudlsZBR1Gngl3SO_P6OmFBP&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/765810/Mars_Horizon/"
@@ -85,7 +93,7 @@
 		  },
 		  {
 		    "title": "Tell Me Why",
-		    "image": "images/tell_me_why.webp",
+		    "image": "images/games/tell_me_why.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=QhI9ewz_1aM&list=PL1wyuEEMvgufIvEt9ZKrl3wLO-_GltGCo",
 		      "steam": "https://store.steampowered.com/app/1180660/Tell_Me_Why/"
@@ -93,7 +101,7 @@
 		  },
 		  {
 		    "title": "Hue",
-		    "image": "images/hue.webp",
+		    "image": "images/games/hue.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=WnY_DtuYksU&list=PL1wyuEEMvgufVrQ5Rjk27G12GAeiBEuLn",
 		      "steam": "https://store.steampowered.com/app/383270/Hue/"
@@ -101,7 +109,7 @@
 		  },
 		  {
 		    "title": "Hellblade: Senua's Sacrifice",
-		    "image": "images/hellblade__senua_s_sacrifice.webp",
+		    "image": "images/games/hellblade__senua_s_sacrifice.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=CCs_VRE9El8&list=PL1wyuEEMvgudROGrjegkbOve6hTxj1JJg",
 		      "steam": "https://store.steampowered.com/app/414340/Hellblade_Senuas_Sacrifice/"
@@ -109,7 +117,7 @@
 		  },
 		  {
 		    "title": "Ori and the Will of the Wisps",
-		    "image": "images/ori_and_the_will_of_the_wisps.webp",
+		    "image": "images/games/ori_and_the_will_of_the_wisps.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=zmpzZmpVq-E&list=PL1wyuEEMvgudz88bhHQsnDwgZkLmS-bw6",
 		      "steam": "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/"
@@ -117,7 +125,7 @@
 		  },
 		  {
 		    "title": "Mars Horizon - Béta",
-		    "image": "images/mars_horizon.webp",
+		    "image": "images/games/mars_horizon.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=B4PNo4TDB9A&list=PL1wyuEEMvgueGGzLKArPzKUvMlkjCZixo&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/765810/Mars_Horizon/"
@@ -125,7 +133,7 @@
 		  },
 		  {
 		    "title": "GTFO",
-		    "image": "images/gtfo.webp",
+		    "image": "images/games/gtfo.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=Eb5J7TSjGus&list=PL1wyuEEMvgueT9vHDQVmuzO6ezPWaKIJs",
 		      "steam": "https://store.steampowered.com/app/493520/GTFO/"
@@ -133,7 +141,7 @@
 		  },
 		  {
 		    "title": "Ori and the Blind Forest",
-		    "image": "images/ori_and_the_blind_forest.webp",
+		    "image": "images/games/ori_and_the_blind_forest.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=9tiEOXqVHtc&list=PL1wyuEEMvgudBQ06wWZVO-dNLAT0zwLtw",
 		      "steam": "https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/"
@@ -141,7 +149,7 @@
 		  },
 		  {
 		    "title": "GRIS",
-		    "image": "images/gris.webp",
+		    "image": "images/games/gris.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=T0poe68jx-Y&list=PL1wyuEEMvgudqS8yzqSyMFKR4YItq9s-A",
 		      "steam": "https://store.steampowered.com/app/683320/GRIS/"
@@ -149,7 +157,7 @@
 		  },
 		  {
 		    "title": "Two Point Hospital",
-		    "image": "images/two_point_hospital.webp",
+		    "image": "images/games/two_point_hospital.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=1NmCEoT6s1g&list=PL1wyuEEMvgudnRV154pWII0aXZfFYLxEj",
 		      "steam": "https://store.steampowered.com/app/535930/Two_Point_Hospital/"
@@ -157,7 +165,7 @@
 		  },
 		  {
 		    "title": "Bad North: Jotunn Edition",
-		    "image": "images/bad_north__jotunn_edition.webp",
+		    "image": "images/games/bad_north__jotunn_edition.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=TQ7zOev7fYk&list=PL1wyuEEMvgufI4vqz825H8CAga8ehoEb_&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/688420/Bad_North_Jotunn_Edition/"
@@ -165,7 +173,7 @@
 		  },
 		  {
 		    "title": "Spyro™ Reignited Trilogy",
-		    "image": "images/spyro_reignited_trilogy.webp",
+		    "image": "images/games/spyro_reignited_trilogy.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=YN1Y-ZiNceg&list=PL1wyuEEMvgueHHW5eboGY00SHpBPYibwB&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy/"
@@ -173,7 +181,7 @@
 		  },
 		  {
 		    "title": "Portal 2",
-		    "image": "images/portal_2.webp",
+		    "image": "images/games/portal_2.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=o_LyySdBIOo&list=PL1wyuEEMvgue9jCqPxHfNGPgxMnOb-Y7o&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/620/Portal_2/"
@@ -181,7 +189,7 @@
 		  },
 		  {
 		    "title": "Dead Cells",
-		    "image": "images/dead_cells.webp",
+		    "image": "images/games/dead_cells.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=GczTmwq49vs&list=PL1wyuEEMvgucsUvJ2tAKT4OtP6xeTnKAY&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/588650/Dead_Cells/"
@@ -189,7 +197,7 @@
 		  },
 		  {
 		    "title": "For The King",
-		    "image": "images/for_the_king.webp",
+		    "image": "images/games/for_the_king.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=w1YNLpTSro0&list=PL1wyuEEMvgudRmssosxsZvoZHNZ3m41bO&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/527230/For_The_King/"
@@ -197,7 +205,7 @@
 		  },
 		  {
 		    "title": "Lonely Mountains: Downhill",
-		    "image": "images/lonely_mountains_downhill.webp",
+		    "image": "images/games/lonely_mountains_downhill.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=n21fjVDhneI&list=PL1wyuEEMvguc9-d-9WJXPh5019T91FGNX&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/711540/Lonely_Mountains_Downhill/"
@@ -205,7 +213,7 @@
 		  },
 		  {
 		    "title": "Red Dead Redemption 2",
-		    "image": "images/red_dead_redemption_2.webp",
+		    "image": "images/games/red_dead_redemption_2.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=xOyC8LcIojA&list=PL1wyuEEMvgueiOPVIfKvN41PCJH66eAwQ&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
@@ -213,7 +221,7 @@
 		  },
 		  {
 		    "title": "Slime Rancher",
-		    "image": "images/slime_rancher.webp",
+		    "image": "images/games/slime_rancher.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=PLN7v5KtfU8&list=PL1wyuEEMvguftV26HpQMxAuLvfKxdM4_u&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/433340/Slime_Rancher/"
@@ -221,7 +229,7 @@
 		  },
 		  {
 		    "title": "Portal",
-		    "image": "images/portal.webp",
+		    "image": "images/games/portal.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=OJLEsl7YLbs&list=PL1wyuEEMvgudp4e0VR2WciQuZZMxGLrvo&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/400/Portal/"
@@ -229,7 +237,7 @@
 		  },
 		  {
 		    "title": "Beyond: Two Souls",
-		    "image": "images/beyond_two_souls.webp",
+		    "image": "images/games/beyond_two_souls.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=fH8ojr-7N1o&list=PL1wyuEEMvgudx7AefjWRZxn5qns8TZNaY&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/960990/Beyond_Two_Souls/"
@@ -237,7 +245,7 @@
 		  },
 		  {
 		    "title": "FOR HONOR™",
-		    "image": "images/for_honor.webp",
+		    "image": "images/games/for_honor.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=0aBLPX1yLqw&list=PL1wyuEEMvgueIj18C1IsITkl3N1hVhIIZ",
 		      "steam": "https://store.steampowered.com/app/304390/FOR_HONOR/"
@@ -245,7 +253,7 @@
 		  },
 		  {
 		    "title": "Mutant Year Zero: Road to Eden",
-		    "image": "images/mutant_year_zero_road_to_eden.webp",
+		    "image": "images/games/mutant_year_zero_road_to_eden.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=kDgakvGjNdA&list=PL1wyuEEMvgucLnOuk1Sz2X0COf9aHUNhw&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/760060/Mutant_Year_Zero_Road_to_Eden/"
@@ -253,7 +261,7 @@
 		  },
 		  {
 		    "title": "FTL: Faster Than Light",
-		    "image": "images/ftl_faster_than_light.webp",
+		    "image": "images/games/ftl_faster_than_light.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=SHn_QACM8RM&list=PL1wyuEEMvguf14ZY1bk2zZY2aru3s0eLP&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/"
@@ -261,7 +269,7 @@
 		  },
 		  {
 		    "title": "The Free Ones",
-		    "image": "images/the_free_ones.webp",
+		    "image": "images/games/the_free_ones.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=u15V1ZHgxqY&list=PL1wyuEEMvguem_lKTWtrBzFg_Lxwk2KNg",
 		      "steam": "https://store.steampowered.com/app/670350/The_Free_Ones/"
@@ -269,7 +277,7 @@
 		  },
 		  {
 		    "title": "Tom Clancy’s The Division® 2",
-		    "image": "images/tom_clancy_the_division_2.webp",
+		    "image": "images/games/tom_clancy_the_division_2.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=NOcIeadQX4E&list=PL1wyuEEMvgudXh1CcQzlFIhAZd-59prhF&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/2221490/Tom_Clancys_The_Division_2/"
@@ -277,7 +285,7 @@
 		  },
 		  {
 		    "title": "RiME",
-		    "image": "images/rime.webp",
+		    "image": "images/games/rime.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=Cs907RegBDU&list=PL1wyuEEMvgud1bO5v5cM6VvsF5MdBNQ_h&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/493200/RiME/"
@@ -285,7 +293,7 @@
 		  },
 		  {
 		    "title": "Beholder",
-		    "image": "images/beholder.webp",
+		    "image": "images/games/beholder.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=sKMCz5FFF1E&list=PL1wyuEEMvgufWPaeFlTUXEo2CXfgIsWEz&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/475550/Beholder/"
@@ -293,7 +301,7 @@
 		  },
 		  {
 		    "title": "Chernobylite",
-		    "image": "images/chernobylite.webp",
+		    "image": "images/games/chernobylite.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=H1Q3ccrmNhk&list=PL1wyuEEMvguchoTt4cgfJDjcyTRRuUKG4&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/1016800/Chernobylite_Enhanced_Edition/"
@@ -301,7 +309,7 @@
 		  },
 		  {
 		    "title": "A Story About My Uncle",
-		    "image": "images/a_story_about_my_uncle.webp",
+		    "image": "images/games/a_story_about_my_uncle.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=UR-Van8Mc84&list=PL1wyuEEMvguepyQXo9czm_VTq8tQiD9DF&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/278360/A_Story_About_My_Uncle/"
@@ -309,7 +317,7 @@
 		  },
 		  {
 		    "title": "A Plague Tale: Innocence",
-		    "image": "images/a_plague_tale_innocence.webp",
+		    "image": "images/games/a_plague_tale_innocence.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=1YCAMxInmfU&list=PL1wyuEEMvgudZbmtekZ6g-WDQxfiubkvk&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/"
@@ -317,7 +325,7 @@
 		  },
 		  {
 		    "title": "Crash Bandicoot™ N. Sane Trilogy",
-		    "image": "images/crash_bandicoot_n_sane_trilogy.webp",
+		    "image": "images/games/crash_bandicoot_n_sane_trilogy.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=1YCAMxInmfU&list=PL1wyuEEMvgudZbmtekZ6g-WDQxfiubkvk&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/731490/Crash_Bandicoot_N_Sane_Trilogy/"
@@ -325,7 +333,7 @@
 		  },
 		  {
 		    "title": "Satisfactory",
-		    "image": "images/satisfactory.webp",
+		    "image": "images/games/satisfactory.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=MtZ8bY6U8uk&list=PL1wyuEEMvguctAzg1xAcyaXztSI639npM&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/526870/Satisfactory/"
@@ -333,7 +341,7 @@
 		  },
 		  {
 		    "title": "Dishonored",
-		    "image": "images/dishonored.webp",
+		    "image": "images/games/dishonored.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=CDLH8rk0w3c&list=PL1wyuEEMvgueh54sIpUX1OQV280m3nfEX&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/205100/Dishonored/"
@@ -341,7 +349,7 @@
 		  },
 		  {
 		    "title": "Mirror's Edge™",
-		    "image": "images/mirrors_edge.webp",
+		    "image": "images/games/mirrors_edge.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=zot2-Gf8FUk&list=PL1wyuEEMvgucSAcWYyYX-KL4K35_7CbAg&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/17410/Mirrors_Edge/"
@@ -349,7 +357,7 @@
 		  },
 		  {
 		    "title": "Trine",
-		    "image": "images/trine.webp",
+		    "image": "images/games/trine.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=qSeVTWt56rk&list=PL1wyuEEMvguen1OrtlEdHrxEA7iMXhPiX&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/35700/Trine_Enchanted_Edition/"
@@ -357,7 +365,7 @@
 		  },
 		  {
 		    "title": "TrackMania² Stadium",
-		    "image": "images/trackmania_stadium.webp",
+		    "image": "images/games/trackmania_stadium.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=kvUEnDpYYjQ&list=PL1wyuEEMvgufRWM16QAjnbUHTfBTZniRB",
 		      "steam": "https://store.steampowered.com/app/232910/TrackMania_Stadium/"
@@ -365,7 +373,7 @@
 		  },
 		  {
 		    "title": "LIMBO",
-		    "image": "images/limbo.webp",
+		    "image": "images/games/limbo.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=2OKxkvzQCxw&list=PL1wyuEEMvgudp2K-Q3yhjjaf0fMa5xlgH&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/48000/LIMBO/"
@@ -373,7 +381,7 @@
 		  },
 		  {
 		    "title": "7 Days to Die",
-		    "image": "images/7_days_to_die.webp",
+		    "image": "images/games/7_days_to_die.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=KKuGzQv8ZWY&list=PL1wyuEEMvgudyzqk7WA_TCqIqocFkFQfc",
 		      "steam": "https://store.steampowered.com/app/251570/7_Days_to_Die/"
@@ -381,7 +389,7 @@
 		  },
 		  {
 		    "title": "Brothers: A Tale of Two Sons",
-		    "image": "images/brothers_a_tale_of_two_sons.webp",
+		    "image": "images/games/brothers_a_tale_of_two_sons.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=64dqbdqir6U&list=PL1wyuEEMvgucEc5-0bZymVkfUUbpJ_z-t",
 		      "steam": "https://store.steampowered.com/app/2153350/Brothers_A_Tale_of_Two_Sons_Remake/"
@@ -389,7 +397,7 @@
 		  },
 		  {
 		    "title": "Subnautica",
-		    "image": "images/subnautica.webp",
+		    "image": "images/games/subnautica.webp",
 		    "links": {
 		      "youtube": "https://www.youtube.com/watch?v=NAf8insaV8o&list=PL1wyuEEMvgufoD4F8TD1KHKL6qvCqy9Cv&pp=gAQBiAQB",
 		      "steam": "https://store.steampowered.com/app/264710/Subnautica/"
@@ -399,238 +407,231 @@
     "soon": [
       {
         "title": "Elden Ring",
-        "image": "images/elden_ring.webp",
+        "image": "images/games/elden_ring.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1245620/ELDEN_RING/"
         }
       },
       {
         "title": "Nioh",
-        "image": "images/nioh.webp",
+        "image": "images/games/nioh.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/485510/Nioh_Complete_Edition/"
         }
       },
       {
         "title": "Nioh 2",
-        "image": "images/nioh2.webp",
+        "image": "images/games/nioh2.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1325200/Nioh_2__The_Complete_Edition/"
         }
       },
       {
         "title": "Sekiro™: Shadows Die Twice",
-        "image": "images/sekiro_shadows_die_twice.webp",
+        "image": "images/games/sekiro_shadows_die_twice.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/"
         }
       },
       {
         "title": "Chernobylite",
-        "image": "images/chernobylite.webp",
+        "image": "images/games/chernobylite.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1016800/Chernobylite_Enhanced_Edition/"
         }
       },
       {
-        "title": "Heavy Rain",
-        "image": "images/heavy_rain.webp",
-        "links": {
-          "steam": "https://store.steampowered.com/app/960910/Heavy_Rain/"
-        }
-      },
-      {
         "title": "Campagne - Age of Empires",
-        "image": "images/age_of_empires.webp",
+        "image": "images/games/age_of_empires.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1017900/Age_of_Empires_Definitive_Edition/"
         }
       },
       {
         "title": "Campagne - Age of Empires II",
-        "image": "images/age_of_empires_2.webp",
+        "image": "images/games/age_of_empires_2.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/"
         }
       },
       {
         "title": "Horizon Zero Dawn",
-        "image": "images/horizon_zero_dawn.webp",
+        "image": "images/games/horizon_zero_dawn.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/"
         }
       },
       {
         "title": "Karm",
-        "image": "images/karm.webp",
+        "image": "images/games/karm.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1348760/KARM/"
         }
       },
       {
         "title": "The Witcher",
-        "image": "images/the_witcher.webp",
+        "image": "images/games/the_witcher.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/20900/The_Witcher_Enhanced_Edition_Directors_Cut/"
         }
       },
       {
         "title": "The Witcher 2",
-        "image": "images/the_witcher_2.webp",
+        "image": "images/games/the_witcher_2.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/20920/The_Witcher_2_Assassins_of_Kings_Enhanced_Edition/"
         }
       },
       {
         "title": "The Witcher 3",
-        "image": "images/the_witcher_3.webp",
+        "image": "images/games/the_witcher_3.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
         }
       },
       {
         "title": "Portal Stories: Mel",
-        "image": "images/portal_stories_mel.webp",
+        "image": "images/games/portal_stories_mel.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/317400/Portal_Stories_Mel/"
         }
       },
       {
         "title": "The Talos Principle",
-        "image": "images/the_talos_principle.webp",
+        "image": "images/games/the_talos_principle.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/257510/The_Talos_Principle/"
         }
       },
       {
         "title": "Hogwarts Legacy : L'Héritage de Poudlard",
-        "image": "images/hogwarts_legacy_lheritage_de_poudlard.webp",
+        "image": "images/games/hogwarts_legacy_lheritage_de_poudlard.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/990080/Hogwarts_Legacy_LHritage_de_Poudlard/"
         }
       },
       {
         "title": "Cities: Skylines II",
-        "image": "images/cities_skylines_2.webp",
+        "image": "images/games/cities_skylines_2.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/949230/Cities_Skylines_II/"
         }
       },
       {
         "title": "Lies of P",
-        "image": "images/lies_of_p.webp",
+        "image": "images/games/lies_of_p.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1627720/Lies_of_P/"
         }
       },
       {
         "title": "No Man's Sky",
-        "image": "images/no_mans_sky.webp",
+        "image": "images/games/no_mans_sky.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/275850/No_Mans_Sky/"
         }
       },
       {
         "title": "Sea of Solitude",
-        "image": "images/sea_of_solitude.webp",
+        "image": "images/games/sea_of_solitude.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1225590/Sea_of_Solitude/"
         }
       },
       {
         "title": "STAR WARS Jedi: Fallen Order",
-        "image": "images/star_wars_jedi_fallen_rder.webp",
+        "image": "images/games/star_wars_jedi_fallen_rder.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1172380/STAR_WARS_Jedi_Fallen_Order/"
         }
       },
       {
         "title": "Starfield",
-        "image": "images/starfield.webp",
+        "image": "images/games/starfield.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1716740/Starfield/"
         }
       },
       {
         "title": "SteamWorld Build",
-        "image": "images/steamworld_build.webp",
+        "image": "images/games/steamworld_build.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/2134770/SteamWorld_Build/"
         }
       },
       {
         "title": "Stellaris",
-        "image": "images/stellaris.webp",
+        "image": "images/games/stellaris.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/281990/Stellaris/"
         }
       },
       {
         "title": "TUNIC",
-        "image": "images/tunic.webp",
+        "image": "images/games/tunic.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/553420/TUNIC/"
         }
       },
       {
         "title": "Unravel",
-        "image": "images/unravel.webp",
+        "image": "images/games/unravel.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1225560/Unravel/"
         }
       },
       {
         "title": "Unravel Two",
-        "image": "images/unravel_two.webp",
+        "image": "images/games/unravel_two.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1225570/Unravel_Two/"
         }
       },
       {
         "title": "Wartales",
-        "image": "images/wartales.webp",
+        "image": "images/games/wartales.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1527950/Wartales/"
         }
       },
       {
         "title": "Wo Long: Fallen Dynasty",
-        "image": "images/wo_long_fallen_dynasty.webp",
+        "image": "images/games/wo_long_fallen_dynasty.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1448440/Wo_Long_Fallen_Dynasty/"
         }
       },
       {
         "title": "Minecraft Legends",
-        "image": "images/minecraft_legends.webp",
+        "image": "images/games/minecraft_legends.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1928870/Minecraft_Legends/"
         }
       },
       {
         "title": "Detroit: Become Human",
-        "image": "images/detroit_become_human.webp",
+        "image": "images/games/detroit_become_human.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/"
         }
       },
       {
         "title": "Twin Mirror",
-        "image": "images/twin_mirror.webp",
+        "image": "images/games/twin_mirror.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/1552810/Twin_Mirror/"
         }
       },
       {
         "title": "The Walking Dead: The Telltale Definitive Series",
-        "image": "images/the_walking_dead_the_telltale_definitive_series.webp",
+        "image": "images/games/the_walking_dead_the_telltale_definitive_series.webp",
         "links": {
           "steam": ""
         }
       },
       {
         "title": "Genesis Alpha One",
-        "image": "images/genesis_alpha_one.webp",
+        "image": "images/games/genesis_alpha_one.webp",
         "links": {
           "steam": "https://store.steampowered.com/app/712190/Genesis_Alpha_One_Deluxe_Edition/"
         }
