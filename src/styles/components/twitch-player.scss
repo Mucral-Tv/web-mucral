@@ -1,0 +1,17 @@
+.twitch-player {
+    width: calc(100vw - 80px);
+    aspect-ratio: 3/4;
+  }
+  
+  @media (min-width: 1024px) {
+    .twitch-player {
+      width: calc(1024px - 80px);
+      aspect-ratio: 21 / 9;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .twitch-player {
+      width: calc(1440px - 80px);
+    }
+  }

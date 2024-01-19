@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import Logo from "@/assets/img/logo.png";
 import DiscordIcode from "@/assets/img/icons/discord.png";
@@ -27,16 +27,16 @@ const Navigation = () => {
         <div className="navigation__menu">
           <ul className="navigation__items">
             <li>
-              <Link to="/">Live</Link>
+              <NavLink to="/">Live</NavLink>
             </li>
             <li>
-              <Link to="/biographie">Biographie</Link>
+              <NavLink to="/biographie">Biographie</NavLink>
             </li>
             <li>
-              <Link to="/configuration">Configuration</Link>
+              <NavLink to="/configuration">Configuration</NavLink>
             </li>
             <li>
-              <Link to="/emissions">Emissions</Link>
+              <NavLink to="/emissions">Emissions</NavLink>
             </li>
           </ul>
           <ul className="navigation__social">

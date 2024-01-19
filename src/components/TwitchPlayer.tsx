@@ -12,6 +12,8 @@ const TwitchPlayer = () => {
         document.body.appendChild(script);
       });
 
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-expect-error
       new Twitch.Embed('twitch-embed', {
         width: '100%',
         height: '100%',

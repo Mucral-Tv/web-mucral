@@ -1,5 +1,7 @@
 import youtubeIcon from "@/assets/img/icons/youtube.png";
 import steamIcon from "@/assets/img/icons/steam.png";
+import { Link } from "react-router-dom";
+import { Links } from "../../models/models";
 
 type CardStatus = "inProgress" | "completed";
 
@@ -7,42 +9,66 @@ interface CardProps {
   status?: CardStatus;
   title: string;
   image: string;
-  links?: string[];
+  links?: Links;
   index: number;
+  type: "event" | "game";
+  link?: string;
 }
 
-const linkRender = (link: string) => {
-  if (link.includes("youtube")) {
-    return (
-      <a href={link} target="_blank" rel="noreferrer">
-        <img src={youtubeIcon} alt="youtube" />
-      </a>
-    );
-  } else if (link.includes("steam")) {
-    return (
-      <a href={link} target="_blank" rel="noreferrer">
-        <img src={steamIcon} alt="steam" />
-      </a>
-    );
-  }
+const linkRender = (links: Links) => {
+  return (
+    <>
+      {links.youtube && (
+        <a
+          href={links.youtube}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card__link"
+        >
+          <img src={youtubeIcon} alt="youtube" />
+        </a>
+      )}
+      {links.steam && (
+        <a
+          href={links.steam}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card__link"
+        >
+          <img src={steamIcon} alt="steam" />
+        </a>
+      )}
+    </>
+  );
 };
 
-const Card = ({ title, image, links, status }: CardProps) => {
+const Card = ({ title, image, links, status, link }: CardProps) => {
+  const cardContent = () => {
+    return (
+      <article
+        className={`card ${status === "completed" ? "card--completed" : ""}`}
+      >
+        <div className="card__image">
+          <img loading="lazy" src={`/${image}`} alt={title} />
+        </div>
+        {(title || links) && (
+          <div className="card__content">
+            <h3>{title}</h3>
+            <div className="card__links">{links && linkRender(links)}</div>
+          </div>
+        )}
+      </article>
+    );
+  };
 
   return (
-    <article
-      className={`card ${status === "completed" ? "card--completed" : ""}`}
-    >
-      <div className="card__image">
-        <img loading="lazy" src={image} alt={title} />
-      </div>
-      {(title || links) && (
-        <div className="card__content">
-          <h3>{title}</h3>
-          <div className="card__links">{links && links.map(linkRender)}</div>
-        </div>
+    <>
+      {link ? (
+        <Link to={`/emissions/events/${link}`}>{cardContent()}</Link>
+      ) : (
+        cardContent()
       )}
-    </article>
+    </>
   );
 };
 

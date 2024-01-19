@@ -1,0 +1,72 @@
+{
+  "image": "images/events/humble_choice_december_2023_banner.webp",
+  "text": "Quel est le concept sur ma chaine 'Humble Choice'? Le but \u00e9tant de tester deux jeux (1h30 chacun), tous les vendredi soir (si possible), de l'Humble Bundle Choice. A la suite des tests un vote sera lanc\u00e9 sur le Discord pour \u00e9lire le jeu de la soir\u00e9e. Je vous rappelle qu'Humble Bundle est un site officiel pour les jeux Steam et autres. Il propose un pack de 8 jeux tous les mois pour 10\u20ac/mois. Parrainage : https://www.humblebundle.com/membership?refc=ftd2AI",
+  "title": "Jeux december 2023",
+  "slug": "humble_choice_december_2023",
+  "games": [
+    {
+      "name": "Last Call BBS",
+      "slug": "lastcallbbs",
+      "description": "D\u00e9marrez votre Lance Z5 et d\u00e9barquez dans Last Call BBS, le plus r\u00e9cent jeu de Zachtronics ! Le Barman a rempli son ordi r\u00e9tro de jeux de puzzles \u00e0 t\u00e9l\u00e9charger et auxquels jouer. Pas besoin de s'inqui\u00e9ter de la protection informatique, ils sont tous pirat\u00e9s et il ne vous reste qu'\u00e0 vous amuser !",
+      "link_steam": "https://store.steampowered.com/app/1511780?l=french",
+      "image": "images/events/humble_choice_december_2023/lastcallbbs.webp",
+      "miniature": "images/events/humble_choice_december_2023/lastcallbbs_small.webp"
+    },
+    {
+      "name": "Midnight Fight Express",
+      "slug": "midnightfightexpress",
+      "description": "Un ancien membre de la p\u00e8gre est ramen\u00e9 dans \u00ab\u00a0la vie\u00a0\u00bb par un myst\u00e9rieux drone pour emp\u00eacher une prise de pouvoir criminelle sur la ville avant le lever du soleil.",
+      "link_steam": "https://store.steampowered.com/app/1390410?l=french",
+      "image": "images/events/humble_choice_december_2023/midnightfightexpress.webp",
+      "miniature": "images/events/humble_choice_december_2023/midnightfightexpress_small.webp"
+    },
+    {
+      "name": "From Space",
+      "slug": "fromspace",
+      "description": "From Space est un jeu de tir bourr\u00e9 d'action solo ou coop\u00e9ration. Invitez jusqu'\u00e0 trois amis et lib\u00e9rez la Terre d'une invasion extraterrestre. En serez-vous capable ? Avec vos armes d\u00e9mentiellement d\u00e9vastatrices, faites le m\u00e9nage dans ce monde postapocalyptique d\u00e9lirant \u00e0 l'esth\u00e9tique insolite !",
+      "link_steam": "https://store.steampowered.com/app/1502190?l=french",
+      "image": "images/events/humble_choice_december_2023/fromspace.webp",
+      "miniature": "images/events/humble_choice_december_2023/fromspace_small.webp"
+    },
+    {
+      "name": "Nobody Saves the World",
+      "slug": "nobodysavestheworld",
+      "description": "Incarnez Personne, un quidam sans aucun trait distinctif\u2026 sauf celui de pouvoir se transformer, dans ce jeu des cr\u00e9ateurs de Guacamelee ! D\u00e9couvrez plus de 15 formes, combinez leurs comp\u00e9tences, explorez des donjons et\u2026 SAUVEZ LE MONDE ?!",
+      "link_steam": "https://store.steampowered.com/app/1432050?l=french",
+      "image": "images/events/humble_choice_december_2023/nobodysavestheworld.webp",
+      "miniature": "images/events/humble_choice_december_2023/nobodysavestheworld_small.webp"
+    },
+    {
+      "name": "Expeditions: Rome",
+      "slug": "expeditions_rome",
+      "description": "Scellez le sort de Rome. Conqu\u00e9rez des terres \u00e9trang\u00e8res. \u00c9voluez au fil de l'intrigue politique du RPG au tour par tour. Livrez bataille avec vos Pr\u00e9toriens. Faites triompher votre l\u00e9gion. Forgez votre voie dans un sc\u00e9nario o\u00f9 chaque d\u00e9cision compte. Quel sera l'avenir de Rome entre vos mains\u00a0?",
+      "link_steam": "https://store.steampowered.com/app/987840?l=french",
+      "image": "images/events/humble_choice_december_2023/expeditions_rome.webp",
+      "miniature": "images/events/humble_choice_december_2023/expeditions_rome_small.webp"
+    },
+    {
+      "name": "The Pale Beyond",
+      "slug": "thepalebeyond",
+      "description": "Vous n'avez pas demand\u00e9 \u00e0 commander cette exp\u00e9dition et pourtant, vous voil\u00e0 bloqu\u00e9 dans les glaces, sans capitaine, \u00e0 des lieues de toute civilisation et quelqu'un doit prendre les choses en main. G\u00e9rez ressources, s\u00e9curit\u00e9 et moral pour r\u00e9ussir \u00e0 traverser l'enfer blanc de The Pale Beyond.",
+      "link_steam": "https://store.steampowered.com/app/1266030?l=french",
+      "image": "images/events/humble_choice_december_2023/thepalebeyond.webp",
+      "miniature": "images/events/humble_choice_december_2023/thepalebeyond_small.webp"
+    },
+    {
+      "name": "ELEX II",
+      "slug": "elexii",
+      "description": "Dans cette suite du RPG vintage \u00e0 monde ouvert ELEX, Jax doit une fois encore unir les Peuples libres du monde de science-fantasy de Magalan face \u00e0 une nouvelle menace\u00a0: les Skyands, qui veulent changer \u00e0 jamais le visage de la plan\u00e8te.",
+      "link_steam": "https://store.steampowered.com/app/900040?l=french",
+      "image": "images/events/humble_choice_december_2023/elexii.webp",
+      "miniature": "images/events/humble_choice_december_2023/elexii_small.webp"
+    },
+    {
+      "name": "The Gunk",
+      "slug": "thegunk",
+      "description": "Dans The Gunk, incarnez Rani ! Avec sa partenaire, elles forment un duo de convoyeuses de l'espace un brin opportunistes \u00e0 la recherche de la mission qui les rendra enfin riches.",
+      "link_steam": "https://store.steampowered.com/app/1087760?l=french",
+      "image": "images/events/humble_choice_december_2023/thegunk.webp",
+      "miniature": "images/events/humble_choice_december_2023/thegunk_small.webp"
+    }
+  ]
+}

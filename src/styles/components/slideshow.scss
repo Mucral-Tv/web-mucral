@@ -1,0 +1,35 @@
+.slideshow {
+  display: flex;
+  margin: 48px 0;
+
+  &__item {
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+
+    &::after {
+      content: "";
+      display: block;
+      inset: 0;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: var(--transition);
+    }
+
+    &:hover {
+        &::after {
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+
+    &--active {
+        &::after {
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+  }
+
+    &__image {
+        display: block;
+    }
+}
