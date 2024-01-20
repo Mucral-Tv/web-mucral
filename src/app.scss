@@ -55,7 +55,8 @@ table {
   /* COLORS */
   --color-background: #17141F;
   --color-overlay: rgba(0, 0, 0, 0.9);
-  --color-primary: #E3A600;
+  --color-primary-rgb: 227, 166, 0;
+  --color-primary: rgb(227, 166, 0);
   --color-secondary: #FFFFFF;
   --color-text: var(--color-secondary);
   --color-title: var(--color-primary);

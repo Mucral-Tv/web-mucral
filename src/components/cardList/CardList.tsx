@@ -3,6 +3,7 @@ import { CardContent, CardStatus, CardType } from "../../models/models";
 import Loading from "../loading/Loading";
 import Card from "../card/Card";
 import "./cardList.scss";
+import Button from "../button/Button";
 
 const CARD_INITIAL_STATE: number = 12;
 const CARD_INCREMENT: number = 12;
@@ -59,9 +60,7 @@ const CardsList = ({
      
 
       {!cardsAllDisplay && (
-        <button className="card-list__see-more" onClick={loadMore}>
-          Voir plus
-        </button>
+        <Button text="Voir plus" onClick={loadMore} className="" />
       )}
     </section>
   );
