@@ -36,9 +36,9 @@ const Event = () => {
       <img className="event__image" src={`/${image}`} alt="" />
       <p className="event__description">{text}</p>
       <h2 className="event__title">{title}</h2>
-      <div className="game" style={{ display: "flex" }}>
+      <div className="game">
         <img className="game__image" src={`/${currentGame?.image}`} alt="" />
-        <div className="game__wrapper" style={{ width: "50%" }}>
+        <div className="game__wrapper">
           <h2 className="game__title">{currentGame?.name}</h2>
           <p className="game__description">{currentGame?.description}</p>
           <a

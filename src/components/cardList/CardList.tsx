@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CardContent, CardType } from "../../models/models";
+import { CardContent, CardStatus, CardType } from "../../models/models";
 import Loading from "../loading/Loading";
 import Card from "../card/Card";
 import "./cardList.scss";
@@ -12,11 +12,13 @@ const CardsList = ({
   type,
   title,
   loading,
+  status,
 }: {
   list: CardContent[];
   type: CardType;
   title: string;
   loading: boolean;
+  status?: CardStatus;
 }) => {
   const [cardsToShow, setCardsToShow] = useState(CARD_INITIAL_STATE);
   const [cardsAllDisplay, setCardsAllDisplay] = useState<boolean>(false);
@@ -49,6 +51,7 @@ const CardsList = ({
             index={index}
             type={type}
             link={item.id}
+            status={status}
           />
         );
       })}

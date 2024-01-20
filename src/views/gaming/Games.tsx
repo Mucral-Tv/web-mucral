@@ -2,9 +2,10 @@ import useFetch from "../../hooks/useFetch";
 import NoPage from "../noPage/NoPage";
 import CardsList from "../../components/cardList/CardList";
 import { CardList } from "../../models/models";
+import Loading from "../../components/loading/Loading";
 
 const Games = () => {
-  const {data,loading,error} = useFetch<CardList>("/data/games.json");
+  const {data, loading, error} = useFetch<CardList>("/data/games.json");
 
   if(error){
     console.log(error);
@@ -12,7 +13,7 @@ const Games = () => {
   }
 
   if(!data) {
-    return <p>Loading...</p>;
+    return <Loading />;
   }
 
   
@@ -37,6 +38,7 @@ const Games = () => {
         type="game"
         title="Gaming terminé"
         loading={loading}
+        status="completed"
       />
     </>
   );
