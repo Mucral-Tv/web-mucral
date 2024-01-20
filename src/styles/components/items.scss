@@ -35,9 +35,8 @@
   }
 
   aside {
-    border: solid 1px var(--color-primary);
     width: 100%;
-    aspect-ratio: 16/9;
+    height: auto;
   }
 
 
@@ -51,9 +50,8 @@
     }
 
     aside {
-      border: solid 1px var(--color-primary);
       width: 512px;
-      aspect-ratio: 16/9;
+      height: auto;
     }
 
     &:nth-child(even) {

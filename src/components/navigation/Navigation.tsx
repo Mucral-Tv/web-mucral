@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import Logo from "@/assets/img/logo.png";
-import DiscordIcode from "@/assets/img/icons/discord.png";
-import TwitchIcon from "@/assets/img/icons/twitch.png";
-import youtubeIcon from "@/assets/img/icons/youtube.png";
-import twiterIcon from "@/assets/img/icons/twitter.png";
-import githubIcon from "@/assets/img/icons/github.png";
-import humbleIcon from "@/assets/img/icons/humble.png";
+import Logo from "/logo.png";
+import DiscordIcode from "/images/icons/discord.png";
+import TwitchIcon from "/images/icons/twitch.png";
+import youtubeIcon from "/images/icons/youtube.png";
+import twiterIcon from "/images/icons/twitter.png";
+import githubIcon from "/images/icons/github.png";
+import humbleIcon from "/images/icons/humble.png";
 
 const Navigation = () => {
   const [open, setOpen] = useState(false);
@@ -36,7 +36,13 @@ const Navigation = () => {
               <NavLink to="/configuration">Configuration</NavLink>
             </li>
             <li>
-              <NavLink to="/emissions">Emissions</NavLink>
+              <NavLink to="/emissions">émissions</NavLink>
+            </li>
+            <li>
+              <NavLink to="#" style={{color: 'grey', cursor: 'unset'}}>Giveways</NavLink>
+            </li>
+            <li>
+              <NavLink to="#" style={{color: 'grey', cursor: 'unset'}}>Animés</NavLink>
             </li>
           </ul>
           <ul className="navigation__social">

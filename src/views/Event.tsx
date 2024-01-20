@@ -1,40 +1,32 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
-interface Event {
-  title: string;
-  image: string;
-  text: string;
-  games: Game[];
-  slideshow: string[];
-}
-
-interface Game {
-  miniature: string;
-  name: string;
-  image: string;
-  description: string;
-  link_steam: string;
-}
+import useFetch from "../hooks/useFetch";
+import { EventDetails, EventGame } from "../models/models";
+import NoPage from "./NoPage";
 
 const Event = () => {
   const params = useParams();
-  
-  const [event, setEvent] = useState<Event>({title: '', image: '', text: '', games: [], slideshow: []});
-  const [currentGame, setCurrentGame] = useState<Game>();
-
-  const { title, image, text, games } = event;
+  const {data,loading,error} = useFetch<EventDetails>(`/data/events/${params.eventID}.json`);
+  const [currentGame, setCurrentGame] = useState<EventGame>();
 
   useEffect(() => {
-    fetch(`/data/events/${params.eventID}.json`)
-      .then((response) => response.json())
-      .then((result) => {
-        console.log(`🚀 ~ .then ~ result:`, result);
+    if(data) {
+      setCurrentGame(data.games[0]);
+    }
+  }, [data]);
 
-        setEvent(result);
-      })
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+
+  if(error){
+    console.log(error);
+    return <NoPage></NoPage>
+  }
+
+  if(loading) {
+    return <p>Loading...</p>
+  }
+
+
+  const { title, image, text, games } = data;
 
   return (
     <div className="event">
@@ -57,7 +49,7 @@ const Event = () => {
       </div>
       <div className="slideshow">
         {games &&
-          games.map((game) => (
+          games.map((game: EventGame) => (
             <div className={`slideshow__item ${game === currentGame ? 'slideshow__item--active' : ''}`} key={game.name} onClick={() => setCurrentGame(game)}>
               <img
                 className="slideshow__image"

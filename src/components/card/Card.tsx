@@ -1,5 +1,5 @@
-import youtubeIcon from "@/assets/img/icons/youtube.png";
-import steamIcon from "@/assets/img/icons/steam.png";
+import youtubeIcon from "/images/icons/youtube.png";
+import steamIcon from "/images/icons/steam.png";
 import { Link } from "react-router-dom";
 import { Links } from "../../models/models";
 

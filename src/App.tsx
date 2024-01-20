@@ -1,14 +1,14 @@
 import './styles/style.scss'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Live from "./pages/Live";
-import NoPage from "./pages/NoPage";
-import Biographie from "./pages/Biographie";
-import Configuration from "./pages/Configuration";
-import Emissions from "./pages/Emissions";
-import Events from './pages/Events';
-import Games from './pages/Games';
-import Event from './pages/Event';
+import Layout from "./views/Layout";
+import Live from "./views/Live";
+import NoPage from "./views/NoPage";
+import Biographie from "./views/Biographie";
+import Configuration from "./views/Configuration";
+import Emissions from "./views/Emissions";
+import Events from './views/Events';
+import Games from './views/Games';
+import Event from './views/Event';
 
 function App() {
 
