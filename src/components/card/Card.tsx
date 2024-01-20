@@ -1,3 +1,4 @@
+import './card.scss';
 import youtubeIcon from "/images/icons/youtube.png";
 import steamIcon from "/images/icons/steam.png";
 import { Link } from "react-router-dom";

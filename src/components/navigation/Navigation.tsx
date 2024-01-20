@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
+import "./Navigation.scss";
 import Logo from "/logo.png";
 import DiscordIcode from "/images/icons/discord.png";
 import TwitchIcon from "/images/icons/twitch.png";

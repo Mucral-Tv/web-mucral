@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { CardContent, CardType } from "../../models/models";
-import Loading from "../loading/Loding";
+import Loading from "../loading/Loading";
 import Card from "../card/Card";
 import "./cardList.scss";
 

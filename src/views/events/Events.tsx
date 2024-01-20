@@ -1,7 +1,7 @@
-import useFetch from "../hooks/useFetch";
-import NoPage from "./NoPage";
-import CardsList from "../components/cardList/CardList";
-import { CardList } from "../models/models";
+import useFetch from "../../hooks/useFetch";
+import NoPage from "../noPage/NoPage";
+import CardsList from "../../components/cardList/CardList";
+import { CardList } from "../../models/models";
 
 const Events = () => {
   const { data, loading, error } = useFetch<CardList>("/data/events.json");

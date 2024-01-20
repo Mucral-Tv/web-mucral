@@ -1,3 +1,5 @@
+import './items.scss';
+
 const Configuration = () => {
     return (
       <>
