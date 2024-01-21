@@ -23,6 +23,7 @@ const Games = () => {
         list={data.inProgress}
         type="game"
         title="Gaming en cours"
+        status="inProgress"
         loading={loading}
       />
 
@@ -30,6 +31,7 @@ const Games = () => {
         list={data.soon}
         type="game"
         title="Gaming a venir"
+        status="soon"
         loading={loading}
       />
 

@@ -24,6 +24,19 @@ const CardsList = ({
   const [cardsToShow, setCardsToShow] = useState(CARD_INITIAL_STATE);
   const [cardsAllDisplay, setCardsAllDisplay] = useState<boolean>(false);
 
+  const [listSorted, setListSorted] = useState<CardContent[]>([]);
+
+  useEffect(() => {
+    if (status === 'soon') {
+      const sortedList = list.sort((a, b) => {
+        return a.title.localeCompare(b.title);
+      });
+      setListSorted(sortedList);
+    } else {
+      setListSorted(list);
+    }
+  }, [list, status]);
+
   const loadMore = () => {
     setCardsToShow(cardsToShow + CARD_INCREMENT);
   };
@@ -38,10 +51,10 @@ const CardsList = ({
 
   return (
     <section className="card-list">
-      <h2 className="card-list__title">{title}</h2>
+      <h2 className="card-list__title">{status === 'completed' || status === 'soon' ? `${title} (${list?.length})` : title}</h2>
       {loading && <Loading />}
       <div className="card-list__wrapper">
-      {list.slice(0, cardsToShow).map((item: CardContent, index) => {
+      {listSorted.slice(0, cardsToShow).map((item: CardContent, index) => {
         return (
           <Card
             // todo: fix key

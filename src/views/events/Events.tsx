@@ -21,6 +21,7 @@ const Events = () => {
         list={data.inProgress}
         type="event"
         title="Évènement en cours"
+        status="inProgress"
         loading={loading}
       />
 
@@ -28,12 +29,14 @@ const Events = () => {
         list={data.soon}
         type="event"
         title="Évènement a venir"
+        status="soon"
         loading={loading}
       />
 
       <CardsList
         list={data.completed}
         type="event"
+        status="completed"
         title="Évènement terminé"
         loading={loading}
       />

@@ -21,7 +21,7 @@ const Biographie = ()  => {
         </section>
         <section className="item">
           <aside>
-            <img src="#" alt="" />
+            <img src="images/bio/pseudo.webp" alt="Origine du pseudonyme" />
           </aside>
           <article>
             <h2>Origine du pseudonyme</h2>
@@ -36,7 +36,7 @@ const Biographie = ()  => {
         </section>
         <section className="item">
           <aside>
-            <img src="#" alt="" />
+            <img src="images/bio/console.webp" alt="Consoles" />
           </aside>
           <article>
             <h2>Consoles</h2>
@@ -57,7 +57,7 @@ const Biographie = ()  => {
         </section>
         <section className="item">
           <aside>
-            <img src="#" alt="" />
+            <img src="images/bio/etucation.webp" alt="Études / Expériences" />
           </aside>
           <article>
             <h2>Études / Expériences</h2>

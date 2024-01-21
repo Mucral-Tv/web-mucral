@@ -87,11 +87,6 @@ table {
     "footer";
   grid-template-rows: var(--header-height) 1fr var(--footer-height);
   min-height: 100dvh;
-
-  a {
-    text-decoration: none;
-    color: var(--color-text);
-  }
 }
 
 main {
@@ -103,6 +98,11 @@ main {
   margin: 40px 0;
   padding: 0 2rem;
   max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
 }
 
 /* DESKTOP */

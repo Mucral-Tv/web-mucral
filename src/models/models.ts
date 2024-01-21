@@ -1,5 +1,5 @@
 export type CardType = "game" | "event";
-export type CardStatus = "inProgress" | "completed";
+export type CardStatus = "inProgress" | "completed" | "soon";
 
 export type Links = {
   youtube?: string;
