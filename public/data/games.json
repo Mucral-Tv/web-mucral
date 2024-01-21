@@ -1,14 +1,28 @@
 {
   "inProgress": [
     {
+      "title": "Heavy Rain",
+      "image": "images/games/heavy_rain.webp",
+      "links": {
+        "steam": "https://store.steampowered.com/app/960910/Heavy_Rain/"
+      }
+    }
+  ],
+  "completed": [
+    {
+      "title": "The Gunk",
+      "image": "images/games/the_gunk.webp",
+      "links": {
+        "steam": "https://store.steampowered.com/app/1087760/The_Gunk/"
+      }
+    },
+    {
       "title": "A Plague Tale: Requiem",
       "image": "images/games/a_plague_tale_requiem.webp",
       "links": {
         "steam": "https://store.steampowered.com/app/1182900/A_Plague_Tale_Requiem/"
       }
-    }
-  ],
-  "completed": [
+    },
     {
       "title": "Crash Bandicoot™ 4: It’s About Time",
       "image": "images/games/crash_bandicoot_4.webp",
@@ -431,21 +445,14 @@
       }
     },
     {
-      "title": "Heavy Rain",
-      "image": "images/games/heavy_rain.webp",
-      "links": {
-        "steam": "https://store.steampowered.com/app/960910/Heavy_Rain/"
-      }
-    },
-    {
-      "title": "Campagne - Age of Empires",
+      "title": "Age of Empires - Campagne",
       "image": "images/games/age_of_empires.webp",
       "links": {
         "steam": "https://store.steampowered.com/app/1017900/Age_of_Empires_Definitive_Edition/"
       }
     },
     {
-      "title": "Campagne - Age of Empires II",
+      "title": "Age of Empires II - Campagne",
       "image": "images/games/age_of_empires_2.webp",
       "links": {
         "steam": "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/"
@@ -623,7 +630,7 @@
       "title": "The Walking Dead: The Telltale Definitive Series",
       "image": "images/games/the_walking_dead_the_telltale_definitive_series.webp",
       "links": {
-        "steam": ""
+        "steam": "https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/"
       }
     },
     {
