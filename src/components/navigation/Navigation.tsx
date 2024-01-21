@@ -1,13 +1,14 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
-import Logo from "@/assets/img/logo.png";
-import DiscordIcode from "@/assets/img/icons/discord.png";
-import TwitchIcon from "@/assets/img/icons/twitch.png";
-import youtubeIcon from "@/assets/img/icons/youtube.png";
-import twiterIcon from "@/assets/img/icons/twitter.png";
-import githubIcon from "@/assets/img/icons/github.png";
-import humbleIcon from "@/assets/img/icons/humble.png";
+import "./Navigation.scss";
+import Logo from "/logo.png";
+import DiscordIcode from "/images/icons/discord.png";
+import TwitchIcon from "/images/icons/twitch.png";
+import youtubeIcon from "/images/icons/youtube.png";
+import twiterIcon from "/images/icons/twitter.png";
+import githubIcon from "/images/icons/github.png";
+import humbleIcon from "/images/icons/humble.png";
 
 const Navigation = () => {
   const [open, setOpen] = useState(false);
@@ -27,16 +28,22 @@ const Navigation = () => {
         <div className="navigation__menu">
           <ul className="navigation__items">
             <li>
-              <Link to="/">Live</Link>
+              <NavLink to="/">Live</NavLink>
             </li>
             <li>
-              <Link to="/biographie">Biographie</Link>
+              <NavLink to="/biographie">Biographie</NavLink>
             </li>
             <li>
-              <Link to="/configuration">Configuration</Link>
+              <NavLink to="/configuration">Configuration</NavLink>
             </li>
             <li>
-              <Link to="/emissions">Emissions</Link>
+              <NavLink to="/emissions">émissions</NavLink>
+            </li>
+            <li>
+              <NavLink to="#" style={{color: 'grey', cursor: 'unset'}}>Giveways</NavLink>
+            </li>
+            <li>
+              <NavLink to="#" style={{color: 'grey', cursor: 'unset'}}>Animés</NavLink>
             </li>
           </ul>
           <ul className="navigation__social">
