@@ -3,13 +3,17 @@
     {
       "id": "arte",
       "title": "Arte",
-      "image": "./public/images/events/arte.webp",
-      "links": {}
+      "image": "images/events/arte.webp",
+      "subEvents": null,
+      "links": {
+        "youtube": "https://www.youtube.com/@arte"
+      }
     },
     {
       "id": "humble_choice_january_2024",
       "title": "Humble Choice - January 2024",
-      "image": "./public/images/events/humble_choice_january_2024.webp",
+      "image": "images/events/humble_choice_january_2024.webp",
+      "subEvents": "humble_choice_january_2024",
       "links": {
         "humble": "https://www.humblebundle.com/membership/january-2024",
         "youtube": "https://www.youtube.com/playlist?list=PL1wyuEEMvguczP5XERww1cnHy_L3zbHxX"
@@ -18,9 +22,10 @@
   ],
   "completed": [
     {
-      "id": "",
+      "id": "lego_nintendo_entertainment_system",
       "title": "Lego - Nintendo Entertainment System",
-      "image": "./public/images/events/lego_nintendo_entertainment_system.webp",
+      "image": "images/events/lego_nintendo_entertainment_system.webp",
+      "subEvents": null,
       "links": {
         "website": "https://www.lego.com/fr-be/product/nintendo-entertainment-system-71374"
       }
@@ -28,40 +33,51 @@
     {
       "id": "humble_choice_december_2023",
       "title": "Humble Choice - December 2023",
-      "image": "./public/images/events/humble_choice_december_2023.webp",
+      "image": "images/events/humble_choice_december_2023.webp",
+      "subEvents": "humble_choice_december_2023",
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1wyuEEMvgufDaVKsi-zUVPf0xNf_xQA7",
         "humble": "https://www.humblebundle.com/membership/december-2023"
       }
     },
     {
-      "id": "",
+      "id": "epic_test",
       "title": "Epic Test",
-      "image": "./public/images/events/epic_test.webp",
+      "image": "images/events/epic_test.webp",
+      "subEvents": null,
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1wyuEEMvgucsLPEhSxEpdP_zVzG0yRCV"
       }
     },
     {
-      "id": "",
+      "id": "trackmania_stadium_mini_cup",
       "title": "Trackmania² Stadium - Mini Cup",
-      "image": "./public/images/events/trackmania_stadium_mini_cup.webp",
+      "image": "images/events/trackmania_stadium_mini_cup.webp",
+      "subEvents": null,
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1wyuEEMvgufbJEJuJcATvIMPr0ihhKb-"
       }
     },
     {
-      "id": "",
+      "id": "nakama_animes",
+      "title": "Nakama Animés",
+      "image": "images/events/nakama_animes.webp",
+      "subEvents": null
+    },
+    {
+      "id": "tournois_rocket_league_osilos",
       "title": "Tournois Rocket League - Osilos",
-      "image": "./public/images/events/tournois_rocket_league_osilos.webp",
+      "image": "images/events/tournois_rocket_league_osilos.webp",
+      "subEvents": null,
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1wyuEEMvgudl6O54ghD_kMM2VUHbTA5e"
       }
     },
     {
-      "id": "",
+      "id": "world_of_warcraft_bfa",
       "title": "World of Warcraft - BFA",
-      "image": "./public/images/events/world_of_warcraft_bfa.webp",
+      "image": "images/events/world_of_warcraft_bfa.webp",
+      "subEvents": null,
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PL1wyuEEMvguczs1TacheQfBxP3FOoMXsN"
       }
@@ -71,7 +87,8 @@
     {
       "id": "dark_souls_run_sl1",
       "title": "Dark Souls I - Run SL1",
-      "image": "./public/images/events/dark_souls_run_sl1.webp",
+      "image": "images/events/dark_souls_run_sl1.webp",
+      "subEvents": null,
       "links": {
         "steam": "https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED"
       }
@@ -79,7 +96,8 @@
     {
       "id": "prime_video",
       "title": "Prime Video",
-      "image": "./public/images/events/prime_video.webp",
+      "image": "images/events/prime_video.webp",
+      "subEvents": null,
       "links": {
         "website": "https://www.primevideo.com"
       }
@@ -87,8 +105,14 @@
     {
       "id": "cuisine_hello_mumu",
       "title": "Cuisine - Hello Mumu",
-      "image": "./public/images/events/cuisine_hello_mumu.webp",
-      "links": {}
+      "image": "images/events/cuisine_hello_mumu.webp",
+      "subEvents": null
+    },
+    {
+      "id": "3d",
+      "title": "3D - Blender",
+      "image": "images/events/3d_blender.webp",
+      "subEvents": null
     }
   ]
 }

@@ -51,7 +51,7 @@ const CardsList = ({
             image={item.image}
             index={index}
             type={type}
-            link={item.id}
+            link={item.subEvents}
             status={status}
           />
         );

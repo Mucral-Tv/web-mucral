@@ -1,0 +1,64 @@
+{
+  "image": "images/events/humble_choice_january_2024_banner.webp",
+  "description": "Quel est le concept sur ma chaine 'Humble Choice'?\n\nLe but \u00e9tant de tester deux jeux (1h30 chacun), tous les vendredi soir (si possible), de l'Humble Bundle Choice.\nA la suite des tests un vote sera lanc\u00e9 sur le Discord pour \u00e9lire le jeu de la soir\u00e9e.\nJe vous rappelle qu'Humble Bundle est un site officiel pour les jeux Steam et autres.\nIl propose un pack de 8 jeux tous les mois pour 10\u20ac/mois.\n     \nParrainage : https://www.humblebundle.com/membership?refc=ftd2AI",
+  "title": "Jeux january 2024",
+  "slug": "humble_choice_january_2024",
+  "games": [
+    {
+      "title": "Roguebook",
+      "slug": "roguebook",
+      "description": "Relevez les d\u00e9fis d\u2019un roguelike deckbuilder aux m\u00e9caniques in\u00e9dites cr\u00e9\u00e9 par les concepteurs de Faeria et par Richard Garfield, l\u2019auteur de Magic: The Gathering\u2122. Formez un duo de h\u00e9ros, assemblez de puissants combos et terrassez les l\u00e9gendes du Roguebook !",
+      "link_steam": "https://store.steampowered.com/app/1076200",
+      "image": "images/events/humble_choice_january_2024/roguebook.webp",
+      "miniature": "images/events/humble_choice_january_2024/roguebook_small.webp"
+    },
+    {
+      "title": "Aragami 2",
+      "slug": "aragami2",
+      "description": "Aragami 2 est un jeu furtif \u00e0 la troisi\u00e8me personne o\u00f9 vous jouez un assassin dot\u00e9 du pouvoir de contr\u00f4ler les ombres. Rejoignez le clan des ombres et combattez l\u2019arm\u00e9e ennemie pour sauver votre peuple.",
+      "link_steam": "https://store.steampowered.com/app/1158370",
+      "image": "images/events/humble_choice_january_2024/aragami2.webp",
+      "miniature": "images/events/humble_choice_january_2024/aragami2_small.webp"
+    },
+    {
+      "title": "OTXO",
+      "slug": "otxo",
+      "description": "P\u00e9n\u00e9trez dans un myst\u00e9rieux manoir pour sauver un \u00eatre cher dans ce rogue-lite sombre au rythme effr\u00e9n\u00e9, m\u00ealant action, brutalit\u00e9 et bullet-time. Affrontez vos d\u00e9mons int\u00e9rieurs et percez les secrets les plus terrifiants du manoir.",
+      "link_steam": "https://store.steampowered.com/app/1608640",
+      "image": "images/events/humble_choice_january_2024/otxo.webp",
+      "miniature": "images/events/humble_choice_january_2024/otxo_small.webp"
+    },
+    {
+      "title": "The Red Lantern",
+      "slug": "theredlantern",
+      "description": "The Red Lantern is a narrative, dog sledding game about survival. You play as the Musher who, along with her team of 5 sled dogs, must find her way home. Care for your dogs, discover their stories, and learn how to navigate the unknowns of the Alaskan wilderness and prepare for your new life.",
+      "link_steam": "https://store.steampowered.com/app/1053710",
+      "image": "images/events/humble_choice_january_2024/theredlantern.webp",
+      "miniature": "images/events/humble_choice_january_2024/theredlantern_small.webp"
+    },
+    {
+      "title": "Hell Pie",
+      "slug": "hellpie",
+      "description": "Hell Pie est un jeu de plateformes en\u202f3D qui propulse le mauvais go\u00fbt vers de nouveaux sommets\u202f! Le jeu vous met dans la peau de Nate, le \u00ab\u202fd\u00e9mon du mauvais go\u00fbt\u202f\u00bb, qui doit r\u00e9unir les ingr\u00e9dients r\u00e9pugnants n\u00e9cessaires \u00e0 la pr\u00e9paration de l'inf\u00e2me tarte d'anniversaire de Satan\u202f!",
+      "link_steam": "https://store.steampowered.com/app/889910",
+      "image": "images/events/humble_choice_january_2024/hellpie.webp",
+      "miniature": "images/events/humble_choice_january_2024/hellpie_small.webp"
+    },
+    {
+      "title": "Marvel's Midnight Suns Digital+ Edition",
+      "slug": "marvelsmidnightsuns",
+      "description": "\u00c0 LA MANI\u00c8RE D'UN SUPER-H\u00c9ROS, COMBATTEZ ET \u00c9LABOREZ DES STRAT\u00c9GIES DANS LES ZONES LES PLUS SOMBRES DE L'UNIVERS. Votre personnage, le Hunter, est un tueur de d\u00e9mons l\u00e9gendaire, qui se retrouve \u00e0 la t\u00eate d'une \u00e9quipe de super-h\u00e9ros et de guerriers hors normes, face \u00e0 une menace apocalyptique.",
+      "link_steam": "https://store.steampowered.com/app/368260",
+      "image": "images/events/humble_choice_january_2024/marvelsmidnightsuns.webp",
+      "miniature": "images/events/humble_choice_january_2024/marvelsmidnightsuns_small.webp"
+    },
+    {
+      "title": "Twin Mirror",
+      "slug": "twinmirror",
+      "description": "La ville de Basswood ne sera plus jamais la m\u00eame apr\u00e8s le passage de Sam Higgs, ex-journaliste d'investigation, dans cette exp\u00e9rience narrative captivante du studio \u00e0 succ\u00e8s DON'T NOD. Parviendrez-vous \u00e0 d\u00e9couvrir la v\u00e9rit\u00e9, quel qu'en soit le prix ?",
+      "link_steam": "https://store.steampowered.com/app/1552810",
+      "image": "images/events/humble_choice_january_2024/twinmirror.webp",
+      "miniature": "images/events/humble_choice_january_2024/twinmirror_small.webp"
+    }
+  ]
+}

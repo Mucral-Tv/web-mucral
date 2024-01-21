@@ -5,7 +5,7 @@ import { CardList } from "../../models/models";
 
 const Events = () => {
   const { data, loading, error } = useFetch<CardList>("/data/events.json");
-
+  
   if (error) {
     console.log(error);
     return <NoPage></NoPage>;

@@ -13,6 +13,7 @@ export interface CardContent {
   image: string;
   links: Links;
   type: CardType;
+  subEvents: string;
 }
 
 export interface CardList {
